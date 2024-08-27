@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    tools:context=".MainActivity">
+    
+    <com.sinaseyfi.advancedcardview.AdvancedCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        app:cornerRadius_BottomRight="50dp"
+        app:shadow0_Outer_Color="@color/plomo"
+        app:shadow0_Outer_Distance="5dp"
+        app:shadow0_Outer_Angle="300"
+        app:shadow0_Outer_Alpha="0.25">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bene"
+                    android:textSize="75sp"
+                    android:textColor="@color/plomo"
+                    android:textAlignment="textStart"
+                    android:fontFamily="@font/baloo_regular"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="25dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="fits"
+                    android:textSize="75sp"
+                    android:fontFamily="@font/baloo_regular"
+                    android:textColor="@color/verde"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="25dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qué bueno verte de nuevo"
+                android:textSize="20sp"
+                android:fontFamily="@font/sofia_regular"
+                android:textColor="@color/plomo"
+                android:textAlignment="textStart"
+                android:layout_marginStart="25dp"
+                android:layout_marginBottom="25dp"/>
+
+        </LinearLayout>
+
+    </com.sinaseyfi.advancedcardview.AdvancedCardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:fontFamily="@font/sofia_regular"
+        android:layout_marginHorizontal="25dp"/>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sofia_regular"
+        android:layout_marginHorizontal="25dp"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:fontFamily="@font/sofia_regular"
+        android:layout_marginHorizontal="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sofia_regular"
+        android:layout_marginHorizontal="25dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acceder"
+        android:fontFamily="@font/sofia_semibold"
+        android:layout_marginHorizontal="75dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste tu contraseña?"
+        android:fontFamily="@font/sofia_semibold"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear cuenta"
+        android:fontFamily="@font/sofia_semibold"
+        android:layout_marginHorizontal="75dp"/>
+
+</LinearLayout>
