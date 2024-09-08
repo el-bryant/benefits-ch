@@ -6,4 +6,31 @@
     </style>
 
     <style name="Theme.Benefits" parent="Base.Theme.Benefits" />
+
+    <style name="botonBlanco" parent="Base.Theme.Benefits">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/boton_blanco</item>
+    </style>
+
+    <style name="botonVerde" parent="Base.Theme.Benefits">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/boton_verde</item>
+    </style>
+
+    <style name="botonPlomo" parent="Base.Theme.Benefits">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/boton_plomo</item>
+    </style>
+
+    <style name="botonFondo" parent="Base.Theme.Benefits">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/boton_fondo</item>
+    </style>
+
+    <style name="titulo" parent="Base.Theme.Benefits">
+        <item name="android:fontFamily">@font/sofia_medium</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/plomo</item>
+        <item name="android:layout_margin">30dp</item>
+    </style>
 </resources>

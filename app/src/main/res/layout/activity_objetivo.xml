@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".ObjetivoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Cuál es tu objetivo?"
+        style="@style/titulo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="15dp">
+
+        <com.sinaseyfi.advancedcardview.AdvancedCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="15dp"
+            app:background_Color="@color/white"
+            app:cornerRadius_TopRight="50dp"
+            app:cornerRadius_BottomRight="10dp"
+            app:cornerRadius_BottomLeft="10dp"
+            app:cornerRadius_TopLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ser más saludable"
+                    android:fontFamily="@font/sofia_medium"
+                    android:textSize="18sp"
+                    android:textColor="@color/plomo"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sofia_light"
+                    android:text="Comer y entrenar para una salud óptima"
+                    android:textColor="@color/plomo"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+        </com.sinaseyfi.advancedcardview.AdvancedCardView>
+
+        <com.sinaseyfi.advancedcardview.AdvancedCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="15dp"
+            app:background_Color="@color/verde"
+            app:cornerRadius_TopRight="50dp"
+            app:cornerRadius_BottomRight="10dp"
+            app:cornerRadius_BottomLeft="10dp"
+            app:cornerRadius_TopLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Perder peso"
+                    android:fontFamily="@font/sofia_medium"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ser más delgado y aumentar stamina"
+                    android:fontFamily="@font/sofia_light"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </com.sinaseyfi.advancedcardview.AdvancedCardView>
+
+        <com.sinaseyfi.advancedcardview.AdvancedCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="15dp"
+            app:background_Color="@color/white"
+            app:cornerRadius_TopRight="50dp"
+            app:cornerRadius_BottomRight="10dp"
+            app:cornerRadius_BottomLeft="10dp"
+            app:cornerRadius_TopLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ganar masa muscular"
+                    android:fontFamily="@font/sofia_medium"
+                    android:textSize="18sp"
+                    android:textColor="@color/plomo"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Construir músculos fuertes y flexibilidad"
+                    android:fontFamily="@font/sofia_light"
+                    android:textSize="15sp"
+                    android:textColor="@color/plomo"/>
+
+            </LinearLayout>
+
+        </com.sinaseyfi.advancedcardview.AdvancedCardView>
+
+    </LinearLayout>
+    
+    <com.sinaseyfi.advancedcardview.AdvancedCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:background_Color="@color/white"
+        app:cornerRadius_TopRight="50dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginVertical="30dp">
+            
+            <ImageView
+                android:id="@+id/ivVolver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_flecha_izquierda"
+                app:tint="@color/plomo" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continuar"
+                android:fontFamily="@font/sofia_medium"
+                android:textColor="@color/verde"
+                android:textSize="18sp"
+                android:textAlignment="textEnd"/>
+            
+        </LinearLayout>
+        
+    </com.sinaseyfi.advancedcardview.AdvancedCardView>
+
+</RelativeLayout>
