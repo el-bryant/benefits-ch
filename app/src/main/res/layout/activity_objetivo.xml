@@ -22,22 +22,25 @@
         android:layout_marginHorizontal="15dp">
 
         <com.sinaseyfi.advancedcardview.AdvancedCardView
+            android:id="@+id/acvMantener"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="15dp"
-            app:background_Color="@color/white"
             app:cornerRadius_TopRight="50dp"
             app:cornerRadius_BottomRight="10dp"
             app:cornerRadius_BottomLeft="10dp"
             app:cornerRadius_TopLeft="10dp">
 
             <LinearLayout
+                android:id="@+id/llayMantener"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_margin="15dp">
+                android:padding="15dp"
+                android:background="@color/white">
 
                 <TextView
+                    android:id="@+id/tvMantenerTitulo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Ser más saludable"
@@ -46,6 +49,7 @@
                     android:textColor="@color/plomo"/>
 
                 <TextView
+                    android:id="@+id/tvMantenerContenido"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/sofia_light"
@@ -58,22 +62,25 @@
         </com.sinaseyfi.advancedcardview.AdvancedCardView>
 
         <com.sinaseyfi.advancedcardview.AdvancedCardView
+            android:id="@+id/acvBajar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="15dp"
-            app:background_Color="@color/verde"
             app:cornerRadius_TopRight="50dp"
             app:cornerRadius_BottomRight="10dp"
             app:cornerRadius_BottomLeft="10dp"
             app:cornerRadius_TopLeft="10dp">
 
             <LinearLayout
+                android:id="@+id/llayBajar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_margin="15dp">
+                android:padding="15dp"
+                android:background="@color/verde">
 
                 <TextView
+                    android:id="@+id/tvBajarTitulo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Perder peso"
@@ -82,6 +89,7 @@
                     android:textColor="@color/white"/>
 
                 <TextView
+                    android:id="@+id/tvBajarContenido"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Ser más delgado y aumentar stamina"
@@ -94,6 +102,7 @@
         </com.sinaseyfi.advancedcardview.AdvancedCardView>
 
         <com.sinaseyfi.advancedcardview.AdvancedCardView
+            android:id="@+id/acvSubir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="15dp"
@@ -104,12 +113,15 @@
             app:cornerRadius_TopLeft="10dp">
 
             <LinearLayout
+                android:id="@+id/llaySubir"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_margin="15dp">
+                android:padding="15dp"
+                android:background="@color/white">
 
                 <TextView
+                    android:id="@+id/tvSubirTitulo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Ganar masa muscular"
@@ -118,6 +130,7 @@
                     android:textColor="@color/plomo"/>
 
                 <TextView
+                    android:id="@+id/tvSubirContenido"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Construir músculos fuertes y flexibilidad"
